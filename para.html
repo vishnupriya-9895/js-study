@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+<input type="text" id="inp">
+<button onclick="para()">click</button>
+<p id="pa"></p>
+  </body>
+  <script>
+    function para(){
+let value=document.getElementById("inp").value
+document.getElementById("pa").innerHTML=value
+    }
+  </script>
+</html>
