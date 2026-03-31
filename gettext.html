@@ -6,13 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-   <input id="inp" type="text">
-   <button onclick="showmsg()">click</button>
+   <h2 id="text">innertext</h2> 
 </body>
 <script>
-   function showmsg(){
-   let input=document.getElementById("inp").value
-alert(input)
-   }
+let para=document.getElementById("text").innerText
+console.log(para)
 </script>
 </html>
